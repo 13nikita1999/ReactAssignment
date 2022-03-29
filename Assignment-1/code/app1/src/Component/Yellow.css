@@ -1,0 +1,60 @@
+#yellowContainer{
+    height: 100%;
+    width: 99%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 5px;
+}
+.top{
+    height: 25vh;
+    background-color: yellow;
+    border-radius: 5px;
+    margin: 5px;
+}
+ @media screen and (max-width:320px) {
+    #yellowContainer{
+        height: 100%;
+        width: 96%;
+        display: grid;
+        grid-template-columns: auto;
+        margin: 5px;
+    }
+    .top{
+        height: 12vh;
+        background-color: yellow;
+        border-radius: 5px;
+        margin: 5px;
+    }
+}
+ 
+@media (min-width:321px) and (max-width:768px) {
+    #yellowContainer{
+        height: 100%;
+        width: 98%;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 5px;
+    }
+    .top{
+        height: 20vh;
+        background-color: yellow;
+        border-radius: 5px;
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width:769px) {
+    #yellowContainer{
+        height: 100%;
+        width:99%;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 5px;
+    }
+    .top{
+        height: 25vh;
+        background-color: yellow;
+        border-radius: 5px;
+        margin: 5px;
+    }
+} 
