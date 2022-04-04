@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-
 const employee = {
   name: 'Tom',
   location: 'New York',
@@ -16,7 +15,8 @@ const employee = {
 ReactDOM.render(
   <React.StrictMode>
     <App employee={employee} />
-  </React.StrictMode>,
+  </React.StrictMode>
+  ,
   document.getElementById('root')
 );
 
