@@ -1,0 +1,58 @@
+#redContainer{
+    height: 100%;
+    width: 98%;
+    margin: 7px 10px;
+    display: grid;
+    grid-template-columns: auto;
+}
+.middle{
+    height: 30vh;
+    background-color: red;
+    border-radius: 5px;
+}
+ @media screen and (max-width:320px) {
+    #redContainer{
+        height: 100%;
+        width: 93%;
+        margin: 7px 10px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .middle{
+        height: 20vh;
+        background-color: red;
+        border-radius: 5px;
+    }
+    
+}
+
+@media screen and (min-width:321px) and (max-width:768px) {
+    #redContainer{
+        height: 100%;
+        width: 96%;
+        margin: 7px 10px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .middle{
+        height: 28vh;
+        background-color: red;
+        border-radius: 5px;
+    }
+    
+}
+
+@media screen and (min-width:769px) {
+    #redContainer{
+        height: 100%;
+        width: 98%;
+        margin: 7px 10px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .middle{
+        height: 32vh;
+        background-color: red;
+        border-radius: 5px;
+    }
+} 

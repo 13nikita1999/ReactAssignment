@@ -1,0 +1,62 @@
+#blueContainer{
+    height: 100%;
+    width: 99%;
+    margin: 5px 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.Bottom{
+    height:35vh;
+    background-color: blue;
+    border-radius: 5px;
+    margin: 5px;
+}
+@media screen and (max-width:320px) {
+    #blueContainer{
+        height: 100%;
+        width: 93%;
+        margin: 5px 10px;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+    .Bottom{
+        height:15vh;
+        background-color: blue;
+        border-radius: 5px;
+        margin: 0px;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:768px) {
+    #blueContainer{
+        height: 100%;
+        width: 97%;
+        margin: 5px 10px;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+    .Bottom{
+        height:15vh;
+        background-color: blue;
+        border-radius: 5px;
+        margin: 0px;
+    }
+}
+
+@media screen and (min-width:769px){
+    #blueContainer{
+        height: 100%;
+        width: 98%;
+        margin: 5px 10px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .Bottom{
+        height:28vh;
+        background-color: blue;
+        border-radius: 5px;
+        margin: 5px;
+    }
+}
